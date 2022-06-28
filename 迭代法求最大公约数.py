@@ -1,0 +1,1 @@
+def gcd(m,n):    while   m%n!=0:        m,n= n,m%n    return na=int(input("请输入a的值:"))b=int(input("请输人b的值:"))print(a,",",b,"的最大公约数为:",gcd(a,b))
